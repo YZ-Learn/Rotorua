@@ -1,0 +1,15 @@
+{
+  "source": "https://www.newzealand.com/nz/plan/business/millennium-hotel-rotorua/",
+  "name": "Millennium Hotel Rotorua",
+  "nameCn": "千禧罗托鲁瓦酒店",
+  "category": "accommodation",
+  "rating": 4.6,
+  "images": ["/images/millennium-1.jpg"],
+  "description": "位于罗托鲁瓦市中心湖畔，毗邻波利尼西亚温泉。227间空调客房，大理石浴室，现代装饰，利用酒店自有地热资源供暖。Poolside Brasserie提供早午餐，Nikau餐厅提供晚餐，Bar Zazu每日中午营业至深夜。酒店内设Spa按摩和身体护理、恒温泳池、温泉池和健身房。免费停车，配备3个电动汽车充电站。接受支付宝和微信支付。",
+  "descriptionEn": "Centrally located beside Lake Rotorua, adjacent to Polynesian Spa. 227 air-conditioned rooms with marble bathrooms and modern décor, heated by geothermal resource. Features Poolside Brasserie, Restaurant Nikau, Bar Zazu, Spa, heated swimming pool, hot pools, and gym. Free parking with 3 EV charging stations. Alipay and WePay accepted.",
+  "highlights": ["湖畔位置，毗邻波利尼西亚温泉", "自有地热供暖+温泉池+按摩Spa", "免费停车+EV充电站", "接受支付宝和微信支付"],
+  "address": "Cnr Eruera and Hinemaru Streets, Rotorua",
+  "addressEn": "Cnr Eruera and Hinemaru Streets, Rotorua",
+  "price": "NZ$199+/晚",
+  "tags": ["酒店", "湖景", "温泉", "Spa", "EV充电"]
+}

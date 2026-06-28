@@ -1,0 +1,23 @@
+{
+  "source": "https://www.newzealand.com/nz/feature/mount-tarawera/",
+  "name": "Mount Tarawera",
+  "nameCn": "塔拉韦拉火山",
+  "category": "nature",
+  "rating": 4.8,
+  "images": [
+    "https://www.newzealand.com/assets/Tourism-NZ/Rotorua/img-1536885072-1456-18468-9495BDBF-DA9D-D93D-45944559FB649E36__aWxvdmVrZWxseQo_CropResizeWzE5MDAsMTAwMCw3NSwianBnIl0.jpg"
+  ],
+  "description": "1886年6月10日凌晨，这座山喷发，将熔岩柱抛向数千米高空。更可怕的是，岩浆遇上了罗托马哈纳湖的地下水，形成大量过热水蒸气，把湖底炸开，沸腾的泥浆散落四方。喷发摧毁了举世闻名的粉白梯田（世界第八大奇迹）。如今火山休眠，6公里长的裂口火山口清晰见证着当年的猛烈喷发。只能通过导览团进入。",
+  "descriptionEn": "On June 10, 1886, the mountain erupted violently, thrusting columns of molten rock thousands of metres into the air. Hot magma met the underground waterways of Lake Rotomahana, creating superheated steam that blew the bottom out of the lake. The eruption destroyed the Pink and White Terraces (eighth wonder of the world). Access is restricted to guided tours.",
+  "highlights": [
+    "壮观火山口——6公里长的裂谷",
+    "1886年喷发毁灭了世界第八大奇观粉白梯田",
+    "仅限导览团进入徒步",
+    "可选直升机观光+火山口着陆徒步",
+    "360度全景视野"
+  ],
+  "address": "Mount Tarawera, Rotorua",
+  "duration": "半天（导览团）",
+  "price": "导览团 NZ$150+",
+  "tags": ["火山", "徒步", "导览团", "直升机", "历史"]
+}
