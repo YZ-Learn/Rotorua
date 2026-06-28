@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@500;600;700&display=swap');
+
+/* ===== New Zealand Tourism Design ===== */
+@theme {
+  --color-background: #FFFFFF;
+  --color-foreground: #171717;
+
+  --color-primary: #3C8637;           /* NZ tourism green */
+  --color-primary-foreground: #FFFFFF;
+
+  --color-secondary: #F8F8F8;         /* light grey sections */
+  --color-secondary-foreground: #171717;
+
+  --color-accent: #C4933F;            /* muted gold - kept from existing */
+  --color-accent-foreground: #FFFFFF;
+
+  --color-muted: #F8F8F8;
+  --color-muted-foreground: #8C8C8C;
+
+  --color-border: #E5E5E0;
+  --color-input: #E5E5E0;
+  --color-ring: #3C8637;
+
+  --color-surface: #FFFFFF;
+  --color-dark: #171717;              /* dark sections */
+  --color-dark-foreground: #FFFFFF;
+
+  --radius: 0.5rem;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Montserrat', 'Inter', sans-serif;
+  --font-headline: 'Inter', sans-serif;
+
+  --animate-fade-in: fade-in 0.3s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+* { border-color: var(--color-border); }
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+html, body, #root { height: 100%; overflow: hidden; }
+
+/* ===== Section styles ===== */
+.section-dark {
+  background: var(--color-dark);
+  color: var(--color-dark-foreground);
+}
+.section-light-grey {
+  background: var(--color-secondary);
+}
+.section-white {
+  background: var(--color-background);
+}
+.section-green {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* Headline / Pakati-style title */
+.headline-title {
+  font-family: var(--font-headline);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+
+/* Section heading */
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+/* Subtle notch accent */
+.notch {
+  width: 2rem;
+  height: 0.2rem;
+  background: var(--color-primary);
+  border-radius: 999px;
+}
+
+/* ===== Cards ===== */
+.nz-card {
+  background: white;
+  border-radius: var(--radius);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.nz-card:active {
+  transform: scale(0.98);
+}
+
+.nz-card-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+/* ===== Tab bar ===== */
+.tab-bar {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 50;
+  background: white;
+  display: flex; align-items: center; justify-content: space-around;
+  padding: 0.25rem 0.5rem 1.5rem;
+  border-top: 1px solid #e5e5e0;
+}
+.tab-item {
+  display: flex; flex-direction: column; align-items: center; gap: 0.125rem;
+  font-size: 0.7rem; font-weight: 500; transition: color 0.2s;
+}
+.tab-item.active { color: var(--color-primary); }
+.tab-item.inactive { color: #8C8C8C; }
+
+/* Scrollbar hide */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
